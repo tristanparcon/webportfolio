@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ;
+}
+
+#home {
+	background-image: url(https://wallpaperaccess.com/full/5506731.jpg);
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	margin-bottom: 5px;
+}
+
+#aboutme {
+	background-image: url(https://www.carpixel.net/w/35aba98b775a0d80ddfe801dce8a4752/honda-civic-type-r-car-wallpaper-99231.jpg);
+	width: 100%;
+	height: auto%;
+	background-size: cover;	
+}
+
+.aboutme {
+	background: transparent;
+}
+
+#projects {
+	background-image: url(https://res-3.cloudinary.com/fieldfisher/image/upload/f_jpg,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05);
+	background-size: cover;
+	
+}
