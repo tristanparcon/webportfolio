@@ -33,23 +33,24 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#homee">Home<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#aboutmee">About Me<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Projects</a>
+					<a class="nav-link" href="#projectss">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact Me</a>
+					<a class="nav-link" href="#contactmee">Contact Me</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<!-- Navbar End -->
 	<!-- Main Contents Home Start -->
-
+	<section id="homee">
+		
 	<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5" id="home">
 		<img class="mt-5 mt-md-0 rounded-circle offset-xl-5 offset-lg-4 offset-md-3 offset-sm-1" src="https://www.w3schools.com/howto/img_avatar.png" width="250">
 
@@ -101,13 +102,15 @@
 			</div>
 
 		</div>
+	</section>
 
 		<!-- Carousel Section End -->
 
 	</div>
 
 	<!-- About Me Section Start -->
-	<div class="text-light min-vh-100 p-5 img-fluid justify-content-center" id="aboutme">
+	<section id="aboutmee">
+		<div class="text-light min-vh-100 m-0 pt-5 img-fluid justify-content-center" id="aboutme">
 		<h2 class="pt-3 pb-3 text-center">About Me</h2>
 		<div class="aboutme"> 
 			<div class="card bg-transparent text-light" style="max-width: 540px;">
@@ -150,12 +153,14 @@
 			</div>
 		</div>
 	</div>
+	</section>
 
 	<!-- About Me Section End -->
 	<!-- Projects Section Start -->
-	<div class="container-fluid text center">
+	<section id="projectss">
+			<div class="container-fluid text center">
 		<div class="row">
-			<div class="container-fluid text-light min-vh-100 p-5 text-center" id="projects">
+			<div class="container-fluid m-0 pt-5 text-light min-vh-100 p-5 text-center" id="projects">
 				<h2 class="mb-3">Projects</h2>
 				<div class="p-md-5 d-lg-flex justify-content-center">
 					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
@@ -191,7 +196,7 @@
 										<li>Heroku</li>
 									</ul>
 							</p>
-							<a href="#" class="card-link">Click Here</a>
+							<a href="#homee" class="card-link">Click Here</a>
 						</div>
 					</div>
 					<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
@@ -214,10 +219,12 @@
 					</div>
 				</div>
 			</div>
+	</section>
 			<!-- Project Section End -->
 			<!-- Contact Me Start -->
-			<div class="container-fluid text-center min-vh-100" id="contact">
-				<div class="text-light justify-content-center">
+	<section id="contactmee">
+					<div class="container-fluid text-center col-lg col-xl min-vh-100" id="contact">
+				<div class="text-light m-0 pt-5 justify-content-center">
 					<h2 class="text-center text-light mt-5">Contact Me</h2>
 					<div class="p-md-5 d-lg-flex justify-content-center">
 						<div class="card bg-transparent text-light col-xl-4 mb-5 mb-xl-0 col-md-8 col-lg-8 col-sm-12" id="contactborder">
@@ -236,10 +243,10 @@
 											<label for="contact_number">Contact Number:</label><br>
 											<input type="number" name="contact_number" id="contact_number" required><br><br>
 
-											<label for="service_type">:</label><br>
+											<label for="service_type">Preferred</label><br>
 											<select name="service_type" id="service_type">
-												<option value="front_end_programming">Quotation</option>
-												<option value="back_end_programming">Email</option>
+												<option value="front_end_programming">Email</option>
+												<option value="back_end_programming">Contact</option>
 
 											</select><br><br>
 											<br><br>
@@ -272,7 +279,8 @@
 
 								</div>
 							</div>
-
+	</section>
+				<!-- Contact Me End -->
 						</body>
 
 
